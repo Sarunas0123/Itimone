@@ -17,6 +17,9 @@ use \ITApp\Testers;
 $manager = new Managment('karolis', 'jojo', '98989', 'jack st.', 'hero', 'Programmers');
 $programmer = new Managment('karolis', 'jojo', '98989', 'jack st.', 'hero', 'Programmers');
 $tester = new Managment('karolis', 'jojo', '98989', 'jack st.', 'hero', 'Programmers');
+$manager->addComment("Good fellow");
+$programmer->addComment("Good fellow");
+$tester->addComment("Good fellow");
 ?>
 <table>
     <tr><td><?php Render::Show($manager->showProduct());?></td></tr>

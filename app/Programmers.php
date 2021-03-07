@@ -29,7 +29,8 @@ class Programmers extends Workers{
             "id: " =>$this->id,
             "Living: " => $this->living,
             "Type: " =>$this->type,
-            "Experience: " =>$this->experience
+            "Experience: " =>$this->experience,
+            "Comment: " => $this->comment
         ];
     }
 }

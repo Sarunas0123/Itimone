@@ -29,7 +29,8 @@ class Testers extends Workers{
             "id: " =>$this->id,
             "Living: " => $this->living,
             "experience: " =>$this->experience,
-            "Status: " =>$this->isheworking
+            "Status: " =>$this->isheworking,
+            "Comment: " => $this->comment
         ];
     }
 }

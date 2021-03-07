@@ -29,7 +29,8 @@ class Managment extends Workers{
             "id: " =>$this->id,
             "Living: " => $this->living,
             "Floor: " => $this->floor,
-            "Department: " => $this->deparment
+            "Department: " => $this->deparment,
+            "Comment: " => $this->comment
         ];
     }
 }
